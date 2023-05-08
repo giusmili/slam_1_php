@@ -7,6 +7,10 @@
     $_date_fr = date("d-m-Y");
     $_version_php = phpversion();
     $_navigateur = $_SERVER["HTTP_USER_AGENT"];
+    
     //php.net
+
+   
+
 
 ?> 
