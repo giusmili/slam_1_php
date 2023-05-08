@@ -3,3 +3,4 @@
         <?= $_short_date ?>
     </time></p>
 </footer>
+<script src="js/app.js"></script>
