@@ -29,5 +29,6 @@ document.addEventListener("DOMContentLoaded", e => {
     header.prepend("Super ")
     console.log('Cette ligne s\'affiche après un délai de 5 secondes');
   });
+  //end promise
   
 });
