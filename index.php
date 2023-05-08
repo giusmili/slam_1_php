@@ -19,6 +19,6 @@
         include_once "./pages/footer.inc.php";
     ?>
 	<pre>
-        <?php print_r($_SERVER) ?>
+    <?php print_r($_SERVER) ?>
     </pre>
 </html>
