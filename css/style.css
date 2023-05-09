@@ -50,6 +50,14 @@ main figure{
 figure h2{
     text-align: center;
 }
+.address{
+    color: red;
+}
+address{
+    font-style: normal;
+    color: #7a7676;
+}
+
 section,footer{
     max-width: 80rem;
     margin: 2.0rem auto;
@@ -67,10 +75,17 @@ section > p {
     margin: 0;
 
 }
+.info{
+    color: red;
+}
 section address{
     padding: 0 1.0rem;
 }
 footer p{
     border: 0;
     text-align: center;
+}
+footer address{
+    text-align: center;
+    color: #222;
 }

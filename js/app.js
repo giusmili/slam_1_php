@@ -3,8 +3,9 @@ document.addEventListener("DOMContentLoaded", e => {
   console.log(e.target);
   const msg = "Server : ";
   const el = document.querySelector("address");
-  el.prepend(msg);
-  const header = document.querySelector("header h1")
+  /* el.prepend(msg); */
+  el.classList.remove("address");
+  const header = document.querySelector("header h1");
 
   /**
    * 
@@ -30,5 +31,6 @@ document.addEventListener("DOMContentLoaded", e => {
     console.log('Cette ligne s\'affiche après un délai de 5 secondes');
   });
   //end promise
+  console.log('ok');
   
 });
