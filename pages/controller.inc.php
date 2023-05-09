@@ -9,10 +9,6 @@
     $_server_addr = $_SERVER["REMOTE_ADDR"];
     $_admin = $_SERVER["SERVER_ADMIN"];
   
-    
-   
-    
-
     //class php
 
     class userController{
